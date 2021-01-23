@@ -1,0 +1,263 @@
+.circle-background {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 255, 255, 0),
+    rgb(255, 255, 255)
+  );
+  z-index: -1;
+  position: absolute;
+}
+.top {
+  right: 40px;
+  top: 30px;
+}
+.bottom {
+  left: 40px;
+  bottom: 30px;
+}
+.glass {
+  height: 100%;
+  width: 70%;
+  font-family: "Poppins", sans-serif;
+  color: #ecf0f1;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-top: 50px;
+  padding-left: 80px;
+  background: rgba(255, 255, 255, 0.377);
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+  backdrop-filter: blur(20px);
+}
+.glass h2 {
+  color: rgb(0, 61, 153);
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.side {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 30%;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  height: 100%;
+  background-color: rgb(216, 216, 255);
+  padding: 30px 0;
+  text-align: center;
+}
+.container {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70vw;
+  box-shadow: 0 0 5px grey;
+  border-radius: 25px;
+}
+.profile {
+  height: 15%;
+  border-radius: 50%;
+  margin: auto;
+}
+.credentials {
+  height: 10%;
+  padding: 5px 0;
+}
+.credentials p,
+.credentials h3 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 61, 153);
+  font-size: 1.5vw;
+}
+.logos {
+  background: none;
+  height: 45%;
+  width: 100%;
+  position: relative;
+  top: 2vh;
+  margin: auto;
+  padding: 20px 2vw;
+}
+.join {
+  height: 25%;
+  width: 75%;
+  border-radius: 25px;
+  text-align: center;
+  background-image: linear-gradient(
+    200deg,
+    rgb(0, 132, 255),
+    rgb(82, 229, 255)
+  );
+  margin: auto;
+}
+.join h2 {
+  height: 100%;
+  width: 100%;
+  top: 4vh;
+  position: relative;
+  font-size: 1.5vw;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+.logo-container-texas {
+  width: 100%;
+
+  height: 25%;
+  position: relative;
+  display: flex;
+}
+.lil-flex {
+  display: flex;
+  height: 10%;
+  margin-bottom: 3vh;
+}
+.lil-flex button {
+  border-radius: 10px;
+  border: none;
+  background: white;
+  color: rgb(0, 61, 153);
+  font-weight: 600;
+}
+.lil-flex button:hover {
+  background-color: rgb(218, 218, 218);
+  cursor: pointer;
+}
+.logo-texas {
+  background: none;
+  padding-left: 2vw;
+  width: 30%;
+  height: 100%;
+  font-size: 3vw;
+}
+.logo-texas i {
+  color: rgb(0, 61, 153);
+}
+.title-texas {
+  font-size: 1.7vw !important;
+  width: 70%;
+  background: none;
+  height: 100%;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  padding-top: 5px;
+  padding-left: 2vw;
+  color: rgb(0, 61, 153);
+}
+
+.search {
+  width: 40%;
+  height: 100%;
+  margin-right: 3vw;
+  margin-bottom: 5%;
+  border-radius: 25px;
+  background-color: rgba(225, 237, 255, 0.4);
+  display: flex;
+  transition: 0.1s all;
+}
+.search input {
+  height: 100%;
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  width: 80%;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+}
+.activeSearch {
+  box-shadow: 0 0 10px rgb(0, 164, 240);
+}
+.search-icon {
+  width: 20%;
+  text-align: center;
+  line-height: 9vh;
+  height: 100%;
+  border-radius: 25px;
+  color: rgb(0, 61, 153);
+}
+.item {
+  width: 95%;
+  margin-bottom: 5%;
+  height: 28%;
+  display: flex;
+  border-radius: 15px;
+  background-color: white;
+  padding: 10px 10px;
+}
+.clickable {
+  cursor: pointer;
+}
+.game-logo {
+  height: 0%;
+  background-color: blue;
+  width: 0%;
+  border-radius: 15px;
+}
+.game-logo img {
+  border-radius: 15px;
+}
+.game-content {
+  font-family: "Poppins", sans-serif;
+  width: 69%;
+
+  text-align: left;
+  color: rgb(95, 95, 95);
+  height: 100%;
+  padding: 10px 15px;
+}
+.bar {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(194, 194, 194);
+  border-radius: 20px;
+}
+.bar-content {
+  width: 70%;
+  height: 100%;
+
+  background-color: rgb(81, 171, 255);
+  border-radius: 20px;
+}
+.game-content h3 {
+  margin: 0;
+  font-size: 13px;
+  top: 100px;
+}
+.game-content p {
+  margin: 0;
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+.percent {
+  width: 20%;
+  height: 100%;
+  padding-left: 20px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: rgb(81, 171, 255);
+}
+
+.room-container {
+  width: 80%;
+  overflow-y: scroll;
+  height: 60%;
+}
+
+Link {
+  text-decoration: none;
+}
